@@ -1,0 +1,339 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" href="img/85go-logo-m.png">
+    <title>check-order-list</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/member.css">
+    <link rel="stylesheet" href="css/check-order.css">
+    <script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>
+    <style type="text/css"></style>
+</head>
+<style></style>
+<body>
+<div class="wrapper">
+    <!--header-->
+    <header>
+        <!--mobile-->
+        <div id="mobile-header">
+            <div class="m-header-group">
+                <div class="m-header-menu"><a id="menu-trigger" href="#0"><span class="menu-icon"></span></a></div>
+                <div class="m-header-search">
+                    <form>
+                        <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+                <div class="m-header-logo"><a href="index.html"><img src="img/85go-logo-m.png"></a></div>
+                <div class="m-header-like"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></div>
+                <div class="m-header-cart"><a href="#">
+                    <div class="bubble-wrap">
+                        <p class="bubble-txt"><span>99+</span></p>
+                    </div>
+                    <img src="img/icon-cart-m.png"></a></div>
+            </div>
+        </div>
+
+        <!--desktop-->
+        <div id="desktop-header" class="container-narrow">
+            <div class="header-up">
+                <!--a加上.active 轉換語系-->
+                <p class="header-langEx"><a href="#">简体</a>/<a href="#" class="active">繁體</a>/<a href="#">EN</a></p>
+                <p class="header-logo"><a href="index.html"><img src="img/85go-logo.png"></a></p>
+            </div>
+            <div class="header-bottom">
+                <nav id="main-nav">
+                    <ul class="nav-menu menu">
+                        <li class="has-dropdown"><a>關於我們</a>
+                            <ul class="nav-dropdown menu">
+                                <li><a href="#">選項1</a></li>
+                                <li><a href="#">選項1</a></li>
+                                <li><a href="#">選項1</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a>Designer</a>
+                            <ul class="nav-dropdown menu">
+                                <li><a href="product.html">prada</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">WOMEN</a></li>
+                        <li><a href="#">MEN</a></li>
+                        <li><a href="#">包款</a></li>
+                        <li><a href="#">鞋款</a></li>
+                        <li><a href="#">服飾</a></li>
+                        <li><a href="#">時尚配件</a></li>
+                    </ul>
+                </nav>
+                <aside id="header-aside">
+                    <div class="search-wrap">
+                        <form class="search">
+                            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                            <input type="text" placeholder="關鍵字">
+                        </form>
+                    </div>
+                    <div class="cart-wrap"><a href="#">
+                        <div class="cart-icon"><img src="img/icon-cart.png"></div>
+                        <div class="cart-txt">購物車 (<span>0</span>)</div>
+                    </a></div>
+                    <!--div加.acitve 轉換狀態-->
+                    <div class="member-wrap">
+                        <div class=""><a href="#"><span>name</span></a>．<a href="#">登出</a></div>
+                        <div class="active"><a href="signin.html">註冊</a>．<a href="login.html">登入</a></div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </header>
+    <!-- -->
+
+    <!--main-->
+    <main class="main-content">
+        <section class="container-narrow" id="member-order-list-page">
+            <div class="content clearfix">
+
+
+                <!--PC-->
+                <div class="check-wrap">
+                    <div class="check-inner-title">
+                        確認訂單
+                    </div>
+                    <div class="check-list-warp">
+                        <ul class="check-list-title">
+                            <li>商品資料</li>
+                            <li>單價</li>
+                            <li>數量</li>
+                            <li>小記</li>
+                        </ul>
+                        <ul class="check-list">
+                            <li>
+                                <div class="check-list-detail">
+                                    <div class="list-img">
+                                        <img src="./img/items/1_712520-PRADA-Black-mikado-dress.jpg" alt="">
+                                    </div>
+                                    <div class="list-detail">
+                                        <div class="list-detail-top">
+                                            <div class="list-detail-item">
+                                                <p><span>PRADA</span></br><span>短袖迷你裙，帶褶邊鑲條</span></p>
+                                                <!--desktop show-->
+                                                <p>ITEM:<span>P35M7GS1721PLU_F0002</span></p>
+                                                <!--mobile show-->
+                                                <p>ITEM:</br><span>P35M7GS1721PLU_F0002</span></p>
+                                                <p><span>顏色:</span><span>黑色</span></br><span>尺寸:</span><span>IK16</span>
+                                                </P>
+                                            </div>
+                                            <!--mobile show list-count-->
+                                            <div>1</div>
+                                            <div class="list-detail-unit-price">
+                                                <span>TWD</span><span>63.000,00</span>
+                                            </div>
+                                        </div>
+                                        <div class="list-detail-bottom">
+                                            <button>移到收藏清單</button>
+                                            <button>刪除商品</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="check-list-count-price">
+                                    <div class="list-count"><span>1</span></div>
+                                    <!--<div class="mobile-list-price"><span>TWD</span><span>63.000,00</span></div>-->
+                                    <div class="list-price"><span>TWD</span><span>63.000,00</span></div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="check-total-amount flex-row">
+                            <li>總結</li>
+                            <li>2</li>
+                            <li><span>TWD </span><span>126.000,00</span></li>
+                        </ul>
+                    </div>
+                    <div class="address-wrap">
+                        <div class="choose-delivery-address flex-column">
+                            <div class="address-title">
+                                選擇配送方式
+                            </div>
+                            <div class="address-input">
+                                <p>國家</p>
+                                <select name="country" id="country">
+                                    <!--<option value="選擇">選擇</option>-->
+                                    <option value="台灣">台灣</option>
+                                    <option value="英國">英國</option>
+                                    <option value="美國">美國</option>
+                                    <option value="日本">日本</option>
+                                </select>
+                                <p>配送方式</p>
+                                <select name="shipping-method" id="shipping">
+                                    <option value="1">義大利郵寄（7~14個工作天）</option>
+                                    <option value="2">國內郵寄（3個工作天）</option>
+                                </select>
+                                <p>付款方式</p>
+                                <select name="payment" id="payment">
+                                    <option value="1">選擇</option>
+                                    <option value="2">ATM匯款</option>
+                                    <option value="3">普惠世紀會員信用扣款</option>
+                                </select>
+                                <div class="bank-detail">
+                                    <p><span>姓名：</span><span>官韋岑</span></p>
+                                    <p><span>卡號：</span><span>2885 4024 7543</span></p>
+                                    <p><span>銀行：</span><span>中國信託</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="complete-send-information">
+                            <div class="address-title">
+                                寄送資料填寫
+                            </div>
+                            <div class="information-input flex-row">
+                                <div class="customer-information">
+                                    <p>顧客資料</p>
+                                    <input type="text" placeholder="顧客名稱">
+                                    <input type="text" placeholder="電子信箱">
+                                    <input type="text" placeholder="電話號碼">
+                                    <p>地址</p>
+                                    <p>國家：<span>台灣</span></p>
+                                    <input type="text" placeholder="城市/市鎮">
+                                    <input type="text" placeholder="郵遞區號">
+                                    <input type="text" placeholder="地址">
+                                </div>
+                                <div class="delivery-information">
+                                    <p>送貨資料</p>
+                                    <p>收貨方式：<span>意大利郵寄（7~14個工作天）</span></p>
+                                    <div class="checkbox-input-wrap">
+                                        <input type="checkbox">
+                                        <span class="checked"></span>
+                                        <lable>郵件人與顧客資料相同</lable>
+                                    </div>
+
+                                    <input type="text" placeholder="收件人名稱">
+                                    <input type="text" placeholder="收件人電話號碼">
+                                    <p>訂單備註</p>
+                                    <textarea name="order-comment" id="order_comment" cols="30" rows="10"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="payment-information-wrap">
+                        <div class="check-inner-title margintop-50">
+                            付款資料
+                        </div>
+                        <div class="payment-information-content flex-column">
+                            <div>已選擇的付款方式：<span>ATM匯款</span></div>
+                            <div class="payment-checkbox-wrap">
+                                <input type="checkbox">
+                                <span class="pay-checked"></span>
+                                <lable>我同意<a href="#">服務條款</a>和<a href="#">退換貨政策</a></lable>
+                            </div>
+                            <button>訂單確認</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--footer-->
+        <div class="container-narrow">
+            <footer>
+                <div>
+                    <p>台灣銀行歐元現金匯率：<span>36.04</span></p>
+                    <p>美元現金匯率：<span>30.457</span></p>
+                </div>
+                <div>
+                    <p><a href="#" class="underline">隱私條款</a>普惠世紀文化傳媒版權所有，未經書面授權禁止使用</p>
+                    <p>Copyright@2008-2017 by puhuei-culture.com all rights reserved</p>
+                </div>
+                <div><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="#"><i
+                        class="fa fa-envelope" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-weixin"
+                                                                                          aria-hidden="true"></i></a>
+                </div>
+            </footer>
+        </div>
+    </main>
+    <!-- -->
+    <!--mobile navigation-->
+    <nav id="mobile-nav">
+        <div class="m-nav-wrap">
+            <div class="m-nav-out">
+                <div class="m-nav-inner">
+                    <ul class="nav-cnt m-nav-info">
+                        <li>
+                            <div class="member-wrap">
+                                <div class=""><a href="#"><span>name</span></a>．<a href="#">登出</a></div>
+                                <div class="active"><a href="signin.html">註冊</a>．<a href="login.html">登入</a></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="header-langEx"><a href="#">简</a>/<a href="#" class="active">繁</a>/<a
+                                    href="#">EN</a></p>
+                        </li>
+                    </ul>
+                    <ul class="nav-cnt">
+                        <li class="item-has-children"><a href="#">關於我們</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Brand</a></li>
+                                <li><a href="#0">Web Apps</a></li>
+                                <li><a href="#0">Mobile Apps</a></li>
+                            </ul>
+                        </li>
+                        <li class="item-has-children"><a href="#">Designer</a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">Product 1</a></li>
+                                <li><a href="#0">Product 2</a></li>
+                                <li><a href="#0">Product 3</a></li>
+                                <li><a href="#0">Product 4</a></li>
+                                <li><a href="#0">Product 5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">WOMEN</a></li>
+                        <li><a href="#">MAN</a></li>
+                        <li><a href="#">包款</a></li>
+                        <li><a href="#">鞋款</a></li>
+                        <li><a href="#">服飾</a></li>
+                        <li><a href="#">時尚配件</a></li>
+                    </ul>
+                    <hr class="m-nav-hr">
+                    <ul class="nav-cnt">
+                        <li><a href="member-manage.html">個人資料管理</a></li>
+                        <li><a href="member-order.html">訂單查詢</a></li>
+                        <li><a href="member-likelist.html">追蹤清單</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- -->
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/mMenu.js"></script> <!--For naigantion-->
+
+<script>
+    $(function () {
+        $(window).scroll(function () {
+
+            //固定menu
+            if ($(this).scrollTop() > 129) {
+                $('header').addClass('fixed');
+            } else {
+                $('header').removeClass('fixed');
+            }
+        });
+
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('.header-langEx a').click(function () {
+            $('a.active').removeClass('active');
+            $(this).closest('a').addClass('active');
+        });
+        $('.items-pagination a').click(function () {
+            $('a.active').removeClass('active');
+            $(this).closest('a').addClass('active');
+        });
+    });
+</script>
+</body>
+</html>
