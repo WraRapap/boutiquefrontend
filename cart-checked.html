@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/member.css">
-    <link rel="stylesheet" href="css/check-order.css">
+    <link rel="stylesheet" href="css/cart.css">
     <script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>
     <style type="text/css"></style>
 </head>
@@ -150,86 +150,35 @@
                             <li><span>TWD </span><span>126.000,00</span></li>
                         </ul>
                     </div>
-                    <div class="address-wrap">
-                        <div class="choose-delivery-address flex-column">
-                            <div class="address-title">
-                                選擇配送方式
-                            </div>
-                            <div class="address-input">
-                                <p>國家</p>
-                                <select name="country" id="country">
-                                    <!--<option value="選擇">選擇</option>-->
-                                    <option value="台灣">台灣</option>
-                                    <option value="英國">英國</option>
-                                    <option value="美國">美國</option>
-                                    <option value="日本">日本</option>
-                                </select>
-                                <p>配送方式</p>
-                                <select name="shipping-method" id="shipping">
-                                    <option value="1">義大利郵寄（7~14個工作天）</option>
-                                    <option value="2">國內郵寄（3個工作天）</option>
-                                </select>
-                                <p>付款方式</p>
-                                <select name="payment" id="payment">
-                                    <option value="1">選擇</option>
-                                    <option value="2">ATM匯款</option>
-                                    <option value="3">普惠世紀會員信用扣款</option>
-                                </select>
-                                <div class="bank-detail">
-                                    <p><span>姓名：</span><span>官韋岑</span></p>
-                                    <p><span>卡號：</span><span>2885 4024 7543</span></p>
-                                    <p><span>銀行：</span><span>中國信託</span></p>
-                                </div>
+                    <div class="confirming-information-wrap">
+                        <div class="delivery-detail">
+                            <div class="detail-title">送貨資料</div>
+                            <div class="detail-content">
+                                <p>送貨國家：<span>台湾</span></p>
+                                <p>送貨方式：<span>義大利郵寄（7~14天）</span></p>
                             </div>
                         </div>
-                        <div class="complete-send-information">
-                            <div class="address-title">
-                                寄送資料填寫
+                        <div class="addressee-detail">
+                            <div class="detail-title">收件人資料</div>
+                            <div class="detail-content">
+                                <p>顧客名稱：<span>123</span></p>
+                                <p>電話號碼：<span>123</span></p>
+                                <p>地址：<span>13121513</span></p>
                             </div>
-                            <div class="information-input flex-row">
-                                <div class="customer-information">
-                                    <p>顧客資料</p>
-                                    <input type="text" placeholder="顧客名稱">
-                                    <input type="text" placeholder="電子信箱">
-                                    <input type="text" placeholder="電話號碼">
-                                    <p>地址</p>
-                                    <p>國家：<span>台灣</span></p>
-                                    <input type="text" placeholder="城市/市鎮">
-                                    <input type="text" placeholder="郵遞區號">
-                                    <input type="text" placeholder="地址">
-                                </div>
-                                <div class="delivery-information">
-                                    <p>送貨資料</p>
-                                    <p>收貨方式：<span>意大利郵寄（7~14個工作天）</span></p>
-                                    <div class="checkbox-input-wrap">
-                                        <input type="checkbox">
-                                        <span class="checked"></span>
-                                        <lable>郵件人與顧客資料相同</lable>
-                                    </div>
-
-                                    <input type="text" placeholder="收件人名稱">
-                                    <input type="text" placeholder="收件人電話號碼">
-                                    <p>訂單備註</p>
-                                    <textarea name="order-comment" id="order_comment" cols="30" rows="10"></textarea>
-                                </div>
+                        </div>
+                        <div class="payment-detail">
+                            <div class="detail-title">付款資料</div>
+                            <div class="detail-content">
+                                <p>付款方式：<span>ATM匯款</span></p>
+                                <p>姓名：<span>官韋岑</span></p>
+                                <p>卡號：<span>2885 4024 7543</span></p>
+                                <p>銀行：<span>中國信託</span></p>
                             </div>
                         </div>
                     </div>
-                    <div class="payment-information-wrap">
-                        <div class="check-inner-title margintop-50">
-                            付款資料
-                        </div>
-                        <div class="payment-information-content flex-column">
-                            <div>已選擇的付款方式：<span>ATM匯款</span></div>
-                            <div class="payment-checkbox-wrap">
-                                <input type="checkbox">
-                                <span class="pay-checked"></span>
-                                <lable>我同意<a href="#">服務條款</a>和<a href="#">退換貨政策</a></lable>
-                            </div>
-                            <button>訂單確認</button>
-                        </div>
+                    <div class="detail-submit">
+                        <button>訂單送出</button>
                     </div>
-
                 </div>
             </div>
         </section>
