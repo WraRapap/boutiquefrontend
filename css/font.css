@@ -2,7 +2,7 @@ html {
 	font-size: 75%;/*16px*.75=12px*/
 	font-family: 'Microsoft JhengHei', 'Heiti TC', Calibri, serif!important;	
 	-webkit-font-smoothing: antialiased;/*防鋸齒*/
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 h1 {
 	font-size: 25px;
