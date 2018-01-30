@@ -99,8 +99,8 @@
       <file leaf-file-name="signin.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/signin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="348" column="50" lean-forward="false" selection-start-line="348" selection-start-column="50" selection-end-line="348" selection-end-column="50" />
+            <state relative-caret-position="608">
+              <caret line="101" column="63" lean-forward="true" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -108,7 +108,7 @@
                 <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#12135#12393#0" expanded="false" />
+                <element signature="e#10233#10491#0" expanded="false" />
                 <element signature="n#script#4;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -118,8 +118,8 @@
       <file leaf-file-name="master.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/master.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5401">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1012">
+              <caret line="413" column="9" lean-forward="true" selection-start-line="413" selection-start-column="9" selection-end-line="413" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -156,6 +156,7 @@
         <option value="$PROJECT_DIR$/question.html" />
         <option value="$PROJECT_DIR$/single-item.html" />
         <option value="$PROJECT_DIR$/size-form.html" />
+        <option value="$PROJECT_DIR$/css/master.css" />
         <option value="$PROJECT_DIR$/signin.html" />
       </list>
     </option>
@@ -240,12 +241,12 @@
       <option name="presentableId" value="Default" />
       <updated>1517206294324</updated>
       <workItem from="1517206295946" duration="5296000" />
-      <workItem from="1517276258778" duration="6659000" />
+      <workItem from="1517276258778" duration="7560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11955000" />
+    <option name="totallyTimeSpent" value="12856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="159" y="60" width="1591" height="956" extended-state="0" />
@@ -360,7 +361,7 @@
             <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#12135#12393#0" expanded="false" />
+            <element signature="e#10233#10491#0" expanded="false" />
             <element signature="n#script#4;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -532,16 +533,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/master.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5401">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1012">
+          <caret line="413" column="9" lean-forward="true" selection-start-line="413" selection-start-column="9" selection-end-line="413" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/signin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="348" column="50" lean-forward="false" selection-start-line="348" selection-start-column="50" selection-end-line="348" selection-end-column="50" />
+        <state relative-caret-position="608">
+          <caret line="101" column="63" lean-forward="true" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -549,7 +550,7 @@
             <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#12135#12393#0" expanded="false" />
+            <element signature="e#10233#10491#0" expanded="false" />
             <element signature="n#script#4;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
