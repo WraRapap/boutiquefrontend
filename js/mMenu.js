@@ -49,9 +49,10 @@ jQuery(document).ready(function($){
 	
 	$('.has-arrow').children('a').on('click', function(event){
 		event.preventDefault();
-		$(this).toggleClass('submenu-open').next('.filter-submenu').slideToggle(500).end().parent('.has-arrow').siblings('.has-arrow').children('a').removeClass('submenu-open').next('.filter-submenu').slideUp(500);
+        $(this).toggleClass('submenu-open').next('.filter-submenu').slideToggle(500).end().parent('.has-arrow').siblings('.has-arrow').children('a').removeClass('submenu-open').next('.filter-submenu').slideUp(500);
 	});
-	
+
+
 });
 
 jQuery(document).ready(function($){
