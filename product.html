@@ -423,8 +423,7 @@
                             </div>
                         </a></article>
                     <article class="items-box">
-                        <div class="items-box-side"><a href="#" class="items-cart"></a> <a href="#"
-                                                                                           class="items-like"></a></div>
+                        <div class="items-box-side"><a href="#" class="items-cart"></a> <a href="#" class="items-like"></a></div>
                         <a href="items.html">
                             <div class="items-box-main">
                                 <div class="items-img reveal"><img
@@ -437,13 +436,12 @@
                             </div>
                         </a></article>
                     <article class="items-box">
-                        <div class="items-box-side"><a href="#" class="items-cart"></a> <a href="#"
-                                                                                           class="items-like"></a></div>
+                        <div class="items-box-side"><a href="#" class="items-cart"></a> <a href="#" class="items-like"></a></div>
                         <a href="items.html">
                             <div class="items-box-main">
-                                <div class="items-img reveal"><img
-                                        src="img/items/1_712520-PRADA-Black-mikado-dress.jpg"><img class="hidden"
-                                                                                                   src="img/items/1_712439-PRADA-Black-mikado-dress.jpg">
+                                <div class="items-img reveal">
+                                    <img src="img/items/1_712520-PRADA-Black-mikado-dress.jpg">
+                                    <img class="hidden" src="img/items/1_712439-PRADA-Black-mikado-dress.jpg">
                                 </div>
                                 <div>
                                     <h6><span>2017秋冬新款氣質黑色連身裙</span></h6>
@@ -452,13 +450,12 @@
                             </div>
                         </a></article>
                     <article class="items-box">
-                        <div class="items-box-side"><a href="#" class="items-cart"></a> <a href="#"
-                                                                                           class="items-like"></a></div>
+                        <div class="items-box-side"><a href="#" class="items-cart"></a> <a href="#" class="items-like"></a></div>
                         <a href="items.html">
                             <div class="items-box-main">
-                                <div class="items-img reveal"><img
-                                        src="img/items/1_747527-BLEHMAN-Black-suede-pumps.jpg"> <img class="hidden"
-                                                                                                     src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg">
+                                <div class="items-img reveal">
+                                    <img src="img/items/1_747527-BLEHMAN-Black-suede-pumps.jpg">
+                                    <img class="hidden" src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg">
                                 </div>
                                 <div>
                                     <h6><span>2017秋冬新款高跟鞋</span></h6>
@@ -734,6 +731,13 @@
         });
     });
 </script>
-
+<script>
+    $(document).ready(function () {
+        // like
+        $(".items-like").click(function () {
+            $(this).toggleClass("activ");
+        })
+    })
+</script>
 </body>
 </html>
