@@ -69,6 +69,7 @@ jQuery(document).ready(function($){
 		$content_wrapper.toggleClass('menu-is-open2').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
 			// firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
 			$('body').toggleClass('overflow-hidden');
+
 		});
 		$('#mobile-filter').toggleClass('menu-is-open2');
 		

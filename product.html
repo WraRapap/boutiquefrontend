@@ -10,14 +10,8 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/product-items.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>
-
-
-    <!--<style type="text/css">-->
-        <!--.jslider-label span{-->
-            <!--display: none;-->
-        <!--}-->
-    <!--</style>-->
     <style>
         .price-range{
             padding-left: 0px;
@@ -35,11 +29,11 @@
             /*border-top: 4px solid orange;*/
             border-bottom: 8px solid #fff;
             background-color: #d2d2d2;
-            margin-top: 80px;
+            margin-top: 30px;
             position: relative;
             display: flex;
             flex-direction: row;
-            margin-bottom: 60px;
+            margin-bottom: 40px;
         }
         .begin-box{
             width: 8px;
@@ -275,8 +269,8 @@
 
                 <!--價錢-->
                 <div class="filter-box" id="filter-price">
-                    <div class="filter-title has-arrow" id="price_title"><a href="#">價錢</a>
-                        <div class="filter-submenu" id="price_submenu" >
+                    <div class="filter-title has-arrow price_title" ><a href="#">價錢</a>
+                        <div class="filter-submenu price_submenu">
                             <div class="price-range">
                                 <div class="price-line">
 
@@ -652,11 +646,18 @@
 
             <!--價錢-->
             <div class="filter-box" id="filter-price">
-                <div class="filter-title has-arrow"><a href="#">價錢</a>
-                    <div class="filter-submenu">
+                <div class="filter-title has-arrow price_title"><a href="#">價錢</a>
+                    <div class="filter-submenu price_submenu" id="price_mobile_submenu">
+                        <div class="price-range">
+                            <div class="price-line">
 
-
-
+                                <div class="sel-line"></div>
+                                <div class="begin-box">
+                                    <span></span>
+                                </div>
+                                <div class="end-box"><span></span></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
