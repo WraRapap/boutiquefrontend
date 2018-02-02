@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/product-items.css">
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-    <!--<script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>-->
+    <script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>
     <style>
         .price-range{
             padding-left: 0px;
@@ -134,7 +133,7 @@
                         </li>
                         <li class="has-dropdown"><a>Designer</a>
                             <ul class="nav-dropdown menu">
-                                <li><a href="product.html">prada</a></li>
+                                <li><a href="product-备份1.html">prada</a></li>
                             </ul>
                         </li>
                         <li><a href="#">WOMEN</a></li>
@@ -649,13 +648,14 @@
                 <div class="filter-title has-arrow price_title"><a href="#">價錢</a>
                     <div class="filter-submenu price_submenu" id="price_mobile_submenu">
                         <div class="price-range">
-                            <div class="price-line">
-
+                            <div class="price-line mobile">
                                 <div class="sel-line"></div>
                                 <div class="begin-box">
                                     <span></span>
                                 </div>
-                                <div class="end-box"><span></span></div>
+                                <div class="end-box">
+                                    <span></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -739,6 +739,96 @@
             $(this).toggleClass("activ");
         })
     })
+</script>
+<script>
+    $(function () {
+        var begin_box = $('.mobile .begin-box');
+        var sel_line = $('.mobile .sel-line');
+        var end_box = $('.mobile .end-box');
+        var price_line = $('.mobile.price-line');
+
+        $('.price_title').click(function (e) {
+            console.log($('#price_mobile_submenu').css('display'));
+
+            if ($('#price_mobile_submenu').css('display') == "block") {
+                // .mobile.price-line的left
+                var offsetL = price_line.offset().left;
+                // 最小box的offsetLeft和left
+                var min_offsetLeft = begin_box.offset().left;
+                var min_left = begin_box.position().left;
+                // 最大box的offsetLeft
+                var max_offsetLeft = end_box.offset().left;
+                var max_left = end_box.position().left;
+                console.log('offsetL:', offsetL, 'min_offsetLeft:', min_offsetLeft, 'max_offsetLeft:', max_offsetLeft);
+
+                //拖动
+                // begin
+                begin_box.on('touchmove', function (e) {
+                    var e_target = e.targetTouches[0];
+                    var e_pageX = e.targetTouches[0].pageX;
+                    // console.log(e_target);
+                    // console.log(e_pageX);
+
+                    //begin-box来到最左边                    
+                    if (e_pageX < offsetL) {
+                        begin_box.css('left', 0);
+                        sel_line.css({
+                            'left': 0,
+                            'width': max_left
+                        });
+                        min_left = 0;
+                        funcPercent();
+                    }
+                    // begin-box不越过end-box
+                    else if (e_pageX < offsetL + max_left) {
+                        begin_box.css('left', e_pageX - offsetL);
+                        sel_line.css({
+                            'left': e_pageX - offsetL,
+                            'width': max_left - (e_pageX - offsetL)
+                        });
+                        min_left = e_pageX - offsetL;
+                        funcPercent();
+                    }
+                });
+
+                // end
+                end_box.on('touchmove', function (e) {
+                    var e_target = e.originalEvent.targetTouches[0];
+                    var e_pageX = e.originalEvent.targetTouches[0].pageX;
+                    // console.log(e_target);
+                    // console.log(e_pageX);
+
+                    //end-box来到最右边                    
+                    if (e_pageX > offsetL + price_line.width()) {
+                        end_box.css('left', price_line.width());
+                        sel_line.css({
+                            'width': price_line.width() - min_left
+                        });
+                        max_left = price_line.width();
+                        funcPercent();
+                    }
+                    // end-box不越过begin-box
+                    else if (e_pageX >= offsetL + min_left) {
+                        end_box.css('left', e_pageX - offsetL);
+                        sel_line.css({
+                            'width': e_pageX - (offsetL + min_left)
+                        });
+                        max_left = e_pageX - offsetL;
+                        funcPercent();
+                    }
+                });
+
+                // 动态显示百分比
+                funcPercent();
+                function funcPercent() {
+                    var beginPer = min_left / $('.price-line').width();
+                    var endPer = max_left / $('.price-line').width();
+                    $('.begin-box span').html(Math.round(beginPer * 100) * 500);
+                    $('.end-box span').html(Math.round(endPer * 100) * 500);
+                }
+            }
+        });
+    });
 </script>
 </body>
 </html>
