@@ -72,11 +72,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="745" column="46" lean-forward="false" selection-start-line="745" selection-start-column="46" selection-end-line="745" selection-end-column="46" />
+            <state relative-caret-position="349">
+              <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="105" column="59" lean-forward="true" selection-start-line="105" selection-start-column="59" selection-end-line="105" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/master.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="818">
+              <caret line="384" column="21" lean-forward="false" selection-start-line="384" selection-start-column="21" selection-end-line="384" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-items.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/product-items.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="255" column="14" lean-forward="false" selection-start-line="255" selection-start-column="14" selection-end-line="255" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -116,6 +156,8 @@
       <find>price_title</find>
       <find>items-like</find>
       <find>fontawesome</find>
+      <find>mobile-filter-wrap</find>
+      <find>brand-icon</find>
     </findStrings>
     <replaceStrings>
       <replace>filter-submenu</replace>
@@ -136,14 +178,12 @@
         <option value="$PROJECT_DIR$/javascripts/jquery.slider.js" />
         <option value="$PROJECT_DIR$/stylesheets/jslider.css" />
         <option value="E:/Projects/代購網站 2/代購網站 - 最终/index2.html" />
-        <option value="$PROJECT_DIR$/css/product-items.css" />
         <option value="$PROJECT_DIR$/js/mMenu.js" />
         <option value="$PROJECT_DIR$/js/priceSlider.js" />
         <option value="$PROJECT_DIR$/js/fontawesome.js" />
         <option value="$PROJECT_DIR$/product备份.html" />
         <option value="$PROJECT_DIR$/cart.html" />
         <option value="$PROJECT_DIR$/cart-checked.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/member-likelist.html" />
         <option value="$PROJECT_DIR$/member-manage.html" />
@@ -156,10 +196,13 @@
         <option value="$PROJECT_DIR$/signin.html" />
         <option value="$PROJECT_DIR$/single-item.html" />
         <option value="$PROJECT_DIR$/size-form.html" />
-        <option value="$PROJECT_DIR$/product.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/js/priceSlider-备份.js" />
         <option value="$PROJECT_DIR$/product1.html" />
+        <option value="$PROJECT_DIR$/css/product-items.css" />
+        <option value="$PROJECT_DIR$/product.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -198,6 +241,11 @@
             <path>
               <item name="boutiquefrontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="boutiquefrontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="boutiquefrontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boutiquefrontend" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="boutiquefrontend" type="b2602c69:ProjectViewProjectNode" />
@@ -252,12 +300,12 @@
       <workItem from="1517276258778" duration="19464000" />
       <workItem from="1517362522015" duration="23774000" />
       <workItem from="1517446955915" duration="13067000" />
-      <workItem from="1517532595243" duration="1323000" />
+      <workItem from="1517532595243" duration="3729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62924000" />
+    <option name="totallyTimeSpent" value="65330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -299,6 +347,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7296">
           <caret line="384" column="21" lean-forward="false" selection-start-line="384" selection-start-column="21" selection-end-line="384" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -412,13 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/小插件/pd-5959a75a-2db0-11e4-8b02-000c29f61318/jQuery.mmenu-master/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -440,13 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/master.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7296">
-          <caret line="384" column="21" lean-forward="false" selection-start-line="384" selection-start-column="21" selection-end-line="384" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascripts/jquery.slider.js" />
     <entry file="file://$PROJECT_DIR$/stylesheets/jslider.css" />
     <entry file="file://E:/Projects/代購網站 2/代購網站 - 最终/index2.html">
@@ -463,18 +498,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/product-items.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7030">
-          <caret line="370" column="17" lean-forward="true" selection-start-line="370" selection-start-column="17" selection-end-line="370" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/slick.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -516,14 +544,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cart-checked.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="88" lean-forward="false" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="88" lean-forward="false" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
@@ -687,10 +707,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/product-items.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="255" column="14" lean-forward="false" selection-start-line="255" selection-start-column="14" selection-end-line="255" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="745" column="46" lean-forward="false" selection-start-line="745" selection-start-column="46" selection-end-line="745" selection-end-column="46" />
+        <state relative-caret-position="349">
+          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/master.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="384" column="21" lean-forward="false" selection-start-line="384" selection-start-column="21" selection-end-line="384" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="105" column="59" lean-forward="true" selection-start-line="105" selection-start-column="59" selection-end-line="105" selection-end-column="59" />
           <folding />
         </state>
       </provider>
