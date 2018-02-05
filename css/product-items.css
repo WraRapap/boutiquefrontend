@@ -182,6 +182,102 @@
 
 /*價格滑塊*/
 
+
+.price-range{
+	padding-left: 0px;
+	padding-right: 10px;
+	width: 100%;
+
+	/*border-bottom: 1px solid #d2d2d2;*/
+	/*padding-bottom: 60px;*/
+	/*background-color: #aaa;*/
+	/*display: block;*/
+}
+.price-line{
+	width: 100%;
+	height: 10px;
+	/*border-top: 4px solid orange;*/
+	border-bottom: 8px solid #fff;
+	background-color: #d2d2d2;
+	margin-top: 30px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 40px;
+	padding-right: 5px;
+}
+.begin-box{
+	width: 8px;
+	height: 12px;
+	background-color: #000000;
+	border-bottom: 4px solid #ffffff;
+	position: absolute;
+	top: -3px;
+	left: 30px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+
+}
+.sel-line{
+	width: 160px;
+	height: 10px;
+	/*border-top: 4px solid red;*/
+	border-bottom: 8px solid #fff;
+	background-color: #000000;
+	position: absolute;
+	left: 38px;
+	cursor: pointer;
+
+
+}
+.end-box{
+	width: 8px;
+	height: 12px;
+	background-color: #000000;
+	border-bottom: 4px solid #ffffff;
+	position: absolute;
+	top: -3px;
+	left: 198px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+}
+.begin-box>span{
+	position: relative;
+	top: 15px;
+	left: -30px;
+	font-size: 16px;
+	cursor: default;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	z-index: 100;
+	display: inline-block;
+	text-align: center;
+	width: 60px;
+	/*background-color: orange;*/
+}
+.end-box>span{
+	position: relative;
+	top: 15px;
+	right: 30px;
+	font-size: 16px;
+	cursor: default;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	z-index: 100;
+	display: inline-block;
+	text-align: right;
+	width: 60px;
+}
 /*** ***/
 
 .reset-btn {
@@ -253,7 +349,7 @@
 	top: 0;
 	visibility: hidden;
 	z-index: 1;
-	width: 260px;
+	width: 280px;
 	background: #fff;
 	/*overflow-y: auto;*/
 	-webkit-transform: translateZ(0);
