@@ -108,7 +108,7 @@
                                         <h3>我已登記</h3>
                                         <div>
                                             <label>帳號</label>
-                                            <input type="text" placeholder="請輸入帳號">
+                                            <input type="text" placeholder="請輸入帳號" id="username_login">
                                         </div>
                                         <div>
                                             <label>密碼</label>
@@ -226,6 +226,7 @@
 </script>
 <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script src="js/slick.js"></script>
+<script src="js/prompt.js"></script>
 <script type="text/javascript">
     $(document).on('ready', function () {
 
@@ -257,6 +258,10 @@
             $('a.active').removeClass('active');
             $(this).closest('a').addClass('active');
         });
+
+        $('#username_login').blur(function () {
+            showPrompt('賬號提示', '賬號有誤，請重新輸入！')
+        })
     });
 </script>
 </body>

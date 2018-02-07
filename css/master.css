@@ -421,13 +421,14 @@ footer i {
 	left: 0px;
 	background-color: rgba(255,255,255,0.5);
 	/*opacity: 0.5;*/
-	/*z-index: 10;*/
-	display: none;
+	z-index: 10;
+	display: block;
 }
 .alert-inr-box{
 	/*position: absolute;*/
 	/*top: 50%;*/
 	/*margin-top: ;*/
+	color: #777777;
 	margin-top: 18%;
 	margin-left: auto;
 	margin-right: auto;
@@ -449,7 +450,8 @@ footer i {
 }
 .alert-inr-box>p{
 	font-size: 16px;
-	padding: 10px 0px;
+	padding: 0px 0px;
+	margin-bottom: 10px;
 }
 .alert-inr-box>button{
 	font-size: 16px;
@@ -467,7 +469,7 @@ footer i {
 }
 @media screen and (max-width: 768px){
 	.alert-inr-box{
-		margin-top: 60%;
+		margin-top: 40%;
 	}
 }
 @media screen and (max-width: 375px){
@@ -475,5 +477,7 @@ footer i {
 		margin-top: 60%;
 		width: 300px;
 		height: 140px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 }

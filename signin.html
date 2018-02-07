@@ -210,12 +210,12 @@
     <!-- -->
 
     <!--alert box-->
-    <div class="alert-wrap">
-        <div class="alert-inr-box">
-            <p></p>
-            <button>確定</button>
-        </div>
-    </div>
+    <!--<div class="alert-wrap">-->
+        <!--<div class="alert-inr-box">-->
+            <!--<p></p>-->
+            <!--<button>確定</button>-->
+        <!--</div>-->
+    <!--</div>-->
 </div>
 <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
 <script src="js/mMenu.js"></script> <!--For naigantion-->
@@ -236,6 +236,7 @@
 </script>
 <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script src="js/slick.js"></script>
+<script src="js/prompt.js"></script>
 <script type="text/javascript">
     $(document).on('ready', function () {
 
@@ -271,21 +272,27 @@
 </script>
 <script>
     $(document).ready(function () {
-        $('.alert-inr-box button').click(function () {
-            alertHide();
-        })
+
         $('#input_email').blur(function () {
-            alertShow();
-            // consol.elog
+            showPrompt('Email提示', 'Email有誤，請重新輸入！')
         })
+
+        //弹框
+        // function showPrompt(propmtTitle, propmtText) {
+        //     $("html").append(
+        //         '<div class="alert-wrap">\n' +
+        //         '        <div class="alert-inr-box">\n' +
+        //         '            <h2>' + propmtTitle + '</h2>\n' +
+        //         '            <p>' + propmtText + '</p>\n' +
+        //         '            <button>確定</button>\n' +
+        //         '        </div>\n' +
+        //         '</div>'
+        //     );
+        //     $('.alert-wrap button').click(function () {
+        //         $('.alert-wrap').remove();
+        //     })
+        // }
     })
-    function alertShow() {//顯示提示框
-        $('.alert-wrap').addClass('show-alert');
-        $('.alert-inr-box>p').text('Email有誤，請重新輸入！');
-    }
-    function alertHide() {//隱藏提示框
-        $('.alert-wrap').removeClass('show-alert');
-    }
 </script>
 </body>
 </html>
